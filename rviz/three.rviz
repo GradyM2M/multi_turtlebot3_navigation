@@ -13,6 +13,9 @@ Panels:
         - /Map4
         - /Path1
         - /Path3
+        - /Marker4
+        - /Marker5
+        - /Marker6
       Splitter Ratio: 0.5222222208976746
     Tree Height: 573
   - Class: rviz/Selection
@@ -90,59 +93,59 @@ Visualization Manager:
         All Enabled: false
         map:
           Value: true
-        tb3_0/base_footprint:
+        robot_1/base_footprint:
           Value: true
-        tb3_0/base_link:
+        robot_1/base_link:
           Value: true
-        tb3_0/base_scan:
+        robot_1/base_scan:
           Value: true
-        tb3_0/caster_back_link:
+        robot_1/caster_back_link:
           Value: true
-        tb3_0/imu_link:
+        robot_1/imu_link:
           Value: true
-        tb3_0/map:
+        robot_1/map:
           Value: true
-        tb3_0/odom:
+        robot_1/odom:
           Value: true
-        tb3_0/wheel_left_link:
+        robot_1/wheel_left_link:
           Value: true
-        tb3_0/wheel_right_link:
+        robot_1/wheel_right_link:
           Value: true
-        tb3_1/base_footprint:
+        robot_2/base_footprint:
           Value: true
-        tb3_1/base_link:
+        robot_2/base_link:
           Value: true
-        tb3_1/base_scan:
+        robot_2/base_scan:
           Value: true
-        tb3_1/caster_back_link:
+        robot_2/caster_back_link:
           Value: true
-        tb3_1/imu_link:
+        robot_2/imu_link:
           Value: true
-        tb3_1/map:
+        robot_2/map:
           Value: true
-        tb3_1/odom:
+        robot_2/odom:
           Value: true
-        tb3_1/wheel_left_link:
+        robot_2/wheel_left_link:
           Value: true
-        tb3_1/wheel_right_link:
+        robot_2/wheel_right_link:
           Value: true
-        tb3_2/base_footprint:
+        robot_3/base_footprint:
           Value: true
-        tb3_2/base_link:
+        robot_3/base_link:
           Value: true
-        tb3_2/base_scan:
+        robot_3/base_scan:
           Value: true
-        tb3_2/caster_back_link:
+        robot_3/caster_back_link:
           Value: true
-        tb3_2/imu_link:
+        robot_3/imu_link:
           Value: true
-        tb3_2/map:
+        robot_3/map:
           Value: true
-        tb3_2/odom:
+        robot_3/odom:
           Value: true
-        tb3_2/wheel_left_link:
+        robot_3/wheel_left_link:
           Value: true
-        tb3_2/wheel_right_link:
+        robot_3/wheel_right_link:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -151,47 +154,47 @@ Visualization Manager:
       Show Names: false
       Tree:
         map:
-          tb3_0/map:
-            tb3_0/odom:
-              tb3_0/base_footprint:
-                tb3_0/base_link:
-                  tb3_0/base_scan:
+          robot_1/map:
+            robot_1/odom:
+              robot_1/base_footprint:
+                robot_1/base_link:
+                  robot_1/base_scan:
                     {}
-                  tb3_0/caster_back_link:
+                  robot_1/caster_back_link:
                     {}
-                  tb3_0/imu_link:
+                  robot_1/imu_link:
                     {}
-                  tb3_0/wheel_left_link:
+                  robot_1/wheel_left_link:
                     {}
-                  tb3_0/wheel_right_link:
+                  robot_1/wheel_right_link:
                     {}
-          tb3_1/map:
-            tb3_1/odom:
-              tb3_1/base_footprint:
-                tb3_1/base_link:
-                  tb3_1/base_scan:
+          robot_2/map:
+            robot_2/odom:
+              robot_2/base_footprint:
+                robot_2/base_link:
+                  robot_2/base_scan:
                     {}
-                  tb3_1/caster_back_link:
+                  robot_2/caster_back_link:
                     {}
-                  tb3_1/imu_link:
+                  robot_2/imu_link:
                     {}
-                  tb3_1/wheel_left_link:
+                  robot_2/wheel_left_link:
                     {}
-                  tb3_1/wheel_right_link:
+                  robot_2/wheel_right_link:
                     {}
-          tb3_2/map:
-            tb3_2/odom:
-              tb3_2/base_footprint:
-                tb3_2/base_link:
-                  tb3_2/base_scan:
+          robot_3/map:
+            robot_3/odom:
+              robot_3/base_footprint:
+                robot_3/base_link:
+                  robot_3/base_scan:
                     {}
-                  tb3_2/caster_back_link:
+                  robot_3/caster_back_link:
                     {}
-                  tb3_2/imu_link:
+                  robot_3/imu_link:
                     {}
-                  tb3_2/wheel_left_link:
+                  robot_3/wheel_left_link:
                     {}
-                  tb3_2/wheel_right_link:
+                  robot_3/wheel_right_link:
                     {}
       Update Interval: 0
       Value: true
@@ -203,7 +206,7 @@ Visualization Manager:
         {}
       Queue Size: 100
       Value: true
-    - Alpha: 1
+    - Alpha: 0.699999988079071
       Class: rviz/Map
       Color Scheme: map
       Draw Behind: true
@@ -213,33 +216,33 @@ Visualization Manager:
       Unreliable: false
       Use Timestamp: false
       Value: true
-    - Alpha: 0.10000000149011612
+    - Alpha: 0.699999988079071
       Class: rviz/Map
-      Color Scheme: costmap
+      Color Scheme: map
       Draw Behind: true
       Enabled: true
       Name: Map
-      Topic: /tb3_0/map
+      Topic: /robot_1/map
       Unreliable: false
       Use Timestamp: false
       Value: true
-    - Alpha: 0.10000000149011612
+    - Alpha: 0.699999988079071
       Class: rviz/Map
       Color Scheme: costmap
       Draw Behind: false
       Enabled: true
       Name: Map
-      Topic: /tb3_1/map
+      Topic: /robot_2/map
       Unreliable: false
       Use Timestamp: false
       Value: true
-    - Alpha: 0.10000000149011612
+    - Alpha: 0.699999988079071
       Class: rviz/Map
       Color Scheme: costmap
       Draw Behind: true
       Enabled: true
       Name: Map
-      Topic: /tb3_0/move_base/global_costmap/costmap
+      Topic: /robot_3/map
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -325,7 +328,7 @@ Visualization Manager:
       Marker Topic: /centroids
       Name: Marker
       Namespaces:
-        {}
+        markers3: true
       Queue Size: 100
       Value: true
     - Class: rviz/Marker
@@ -333,7 +336,7 @@ Visualization Manager:
       Marker Topic: /robot1_rrt_detector_shapes
       Name: Marker
       Namespaces:
-        {}
+        markers: true
       Queue Size: 100
       Value: true
     - Class: rviz/Marker
@@ -341,7 +344,7 @@ Visualization Manager:
       Marker Topic: /robot2_rrt_detector_shapes
       Name: Marker
       Namespaces:
-        {}
+        markers: true
       Queue Size: 100
       Value: true
     - Class: rviz/Marker
@@ -349,7 +352,7 @@ Visualization Manager:
       Marker Topic: /robot3_rrt_detector_shapes
       Name: Marker
       Namespaces:
-        {}
+        markers: true
       Queue Size: 100
       Value: true
   Enabled: true
@@ -369,7 +372,7 @@ Visualization Manager:
       X std deviation: 0.5
       Y std deviation: 0.5
     - Class: rviz/SetGoal
-      Topic: /tb3_2/move_base_simple/goal
+      Topic: /robot_1/move_base_simple/goal
     - Class: rviz/PublishPoint
       Single click: true
       Topic: /clicked_point
@@ -377,16 +380,16 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 8.333701133728027
+      Distance: 12.936836242675781
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.047484107315540314
-        Y: 0.26363587379455566
-        Z: -0.09524546563625336
+        X: -0.10067848116159439
+        Y: 3.410857677459717
+        Z: -0.09608656913042068
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false

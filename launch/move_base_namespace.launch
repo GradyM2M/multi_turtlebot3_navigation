@@ -22,7 +22,7 @@
       <param name="global_costmap/scan/sensor_frame" value="$(arg robot_namespace)/base_scan"/>
       <param name="global_costmap/obstacle_layer/scan/sensor_frame"
 	     value="$(arg robot_namespace)/base_scan"/>
-      <param name="global_costmap/global_frame" value="tb3_0/map"/>
+      <param name="global_costmap/global_frame" value="map"/>
       <param name="global_costmap/robot_base_frame"
 	     value="$(arg robot_namespace)/base_footprint"/>
       <param name="local_costmap/scan/sensor_frame" value="$(arg robot_namespace)/base_scan"/>
@@ -33,7 +33,7 @@
 	     value="$(arg robot_namespace)/base_footprint"/>
 
       <!-- Centralized map server -->
-      <remap from="tb3_0/map" to="/map"/>
+      <!-- <remap from="tb3_0/map" to="/map"/> -->
       <param name="DWAPlannerROS/min_vel_x" value="0.0" if="$(arg move_forward_only)" />
     </node>
   </group>
