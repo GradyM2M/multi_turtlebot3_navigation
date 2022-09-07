@@ -1,7 +1,7 @@
 # multi_turtlebot3_navigation
 
 #### 介绍
-该功能包与[multi_rrt_exploration](https://github.com/GradyM2M/multi_rrt_exploration)配合使用，move_base与gmapping已经配置完毕。
+该功能包与[multi_rrt_exploration](https://github.com/GradyM2M/multi_rrt_exploration)配合使用，move_base与gmapping已经配置完毕。其中，算法验证平台采用3台TurtleBot3机器人设计与开发。结果表明，无论在仿真还是样机实验中，基于RRT-GFE的多机器人协同探索算法均能取得更加省时高效的探索效果。
 
 #### 软件依赖
 所需依赖如下：
